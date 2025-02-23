@@ -1,5 +1,4 @@
-*config.yml
-*config.*.yml
+config.yml
 .DS_Store
 *.pyc
 __pycache__

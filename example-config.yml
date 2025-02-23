@@ -1,0 +1,12 @@
+General:
+    TOKEN: ""
+    STATUS: "online"
+
+    ACTIVITY: "watching"
+    DOING_ACTIVITY: "AI"
+    STREAMING_ACTIVITY_TWITCH_URL: ""
+
+    EMBED_COLOR: "#65A8E6"
+
+Staff:
+    STAFF_ROLES: []
