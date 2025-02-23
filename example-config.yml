@@ -8,5 +8,8 @@ General:
 
     EMBED_COLOR: "#65A8E6"
 
+API:
+    GROQ_API_KEY: ""
+
 Staff:
     STAFF_ROLES: []

@@ -7,11 +7,11 @@ from discord.ext import commands
 with open('config.yml', 'r') as file:
     data = yaml.safe_load(file)
 
+token = data["General"]["TOKEN"]
 status = data["General"]["STATUS"].lower()
 activity = data["General"]["ACTIVITY"].lower()
 doing_activity = data["General"]["DOING_ACTIVITY"]
 streaming_activity_twitch_url = data["General"]["STREAMING_ACTIVITY_TWITCH_URL"]
-token = data["General"]["TOKEN"]
 
 class bcolors:
     HEADER = '\033[95m'
